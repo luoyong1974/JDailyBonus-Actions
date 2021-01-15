@@ -25,7 +25,7 @@ jobs:
         
     - name: JD Bonus
       env:
-        MyJDCookie01: ${{ AAJf7BppADBrtUMAatbBgrXyoMT_Gmd-7xAJmMCnFvlbhZi7M4ZqHrt6CqvznZrhL70OIGxV1AI;pt_pin=yongluo_yc; }}
+        MyJDCookie01: ${{ secrets.JDCOOKIE01 }}
         MyJDCookie02: ${{ secrets.JDCOOKIE02 }}
         MyJDCookie03: ${{ secrets.JDCOOKIE03 }}
         MyJDCookie04: ${{ secrets.JDCOOKIE04 }}
